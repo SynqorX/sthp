@@ -1,0 +1,23 @@
+# 1. Ignore everything in the root
+/*
+
+# 2. Allow Git to enter and traverse subdirectories
+!/*/
+
+# 3. Whitelist only the core project files
+!main.py
+!engine.py
+!keyboard_map.py
+
+# 4. Whitelist configuration and documentation
+!.gitignore
+!requirements.txt
+!README.md
+!SPEC.md
+
+# 5. Prevent Python bytecode and local environments from being tracked
+**/__pycache__/
+**/*.py[cod]
+**/venv/
+**/.env
+**/.DS_Store
