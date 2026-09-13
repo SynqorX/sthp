@@ -1,0 +1,8 @@
+# OS-Level Virtual Keyboard Injection & Global Hotkey Listeners
+pynput>=1.7.6
+
+# User Interface Framework
+customtkinter>=5.2.0
+
+# Statistical Sampling & Dynamic Delay Modeling (Log-Normal distributions for IKIs)
+numpy>=1.24.0
